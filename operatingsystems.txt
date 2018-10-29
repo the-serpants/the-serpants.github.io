@@ -1,0 +1,10 @@
+grep and awk command
+fcfs
+sjf
+sed/grp commands
+priority scheduling
+producer and customer
+interprocess communication
+round robin
+bankers algorithm
+physical and logical address programming
