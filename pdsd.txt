@@ -1,0 +1,10 @@
+verification of logic gates
+verification of k-map
+design of adder
+design of subtractor
+one-bit operator
+decoder
+binary to gray converter
+multiplexer
+demultiplexer
+encoder
