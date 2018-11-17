@@ -1,0 +1,139 @@
+@import "../node_modules/bulma/sass/utilities/initial-variables"
+
+$primary: #212121
+$light-grey: #BBB
+$medium-grey: #505050
+$dark-grey: #252525
+$background: $primary
+$footer-background-color: $primary
+$card-background-color: $dark-grey
+$text: white
+$tag-background-color: $medium-grey
+
+
+.hero
+    background-size: cover
+    background: no-repeat center center
+
+.hero-index
+    background-image: url('../images/artwork/Bokeh.jpg')
+
+.hero-programs
+    background-image: url('../images/artwork/bokeh_green.jpg')
+
+.hero-artwork
+    background-image: url('../images/artwork/sunset.jpg')
+
+.hero-apps
+    background-image: url('../images/artwork/balloon_defocus.jpg')
+
+.hero-disclaimer
+    background-image: url('../images/artwork/code_mockup.jpg')
+
+.inverted-section
+    background-color: $primary
+    color: white
+
+
+#text-footer
+    color: #DDD
+
+.inverted-container .title
+    color: white
+
+.inverted-container .subtitle
+    color: #EEE
+
+.hidden
+    display: none
+
+@import _scrollbar
+// @import "../node_modules/bulma/bulma"
+
+@import "../node_modules/bulma/sass/utilities/_all"
+@import "../node_modules/bulma/sass/base/_all"
+@import "../node_modules/bulma/sass/components/navbar"
+@import "../node_modules/bulma/sass/components/card"
+@import "../node_modules/bulma/sass/components/media"
+@import "../node_modules/bulma/sass/elements/tag"
+@import "../node_modules/bulma/sass/grid/columns"
+@import "../node_modules/bulma/sass/elements/container"
+@import "../node_modules/bulma/sass/elements/content"
+@import "../node_modules/bulma/sass/elements/image"
+@import "../node_modules/bulma/sass/elements/title"
+@import "../node_modules/bulma/sass/elements/icon"
+@import "../node_modules/bulma/sass/layout/_all"
+// @import "../node_modules/bulma/sass/"
+
+.footer
+    padding: 3rem 1.5rem 1rem
+
+.is-ctransparent
+    background-color: transparent
+
+.subtitle strong
+    color: white
+    font-weight: 600
+
+.nav-scrolled
+    background-color: $primary !important
+
+html.has-navbar-fixed-top
+    padding-top: 0 !important
+
+.white-no-dec-link
+    color: white
+    cursor: pointer
+    text-decoration: none
+
+.white-no-dec-link:hover
+    color: white
+
+
+// SVG Stuff
+$skill-icon-size: 30px
+
+.skill-icon svg
+    width: $skill-icon-size
+    height: $skill-icon-size
+
+.svg-white svg
+    fill: white
+
+$social-icon-size: 20px
+
+.social-icon svg
+    width: $social-icon-size
+    height: $social-icon-size
+    margin-top: 15px
+    margin-left: 8px
+    margin-right: 8px
+
+#navbarlogo svg
+    width: 70px
+
+.p-logo svg
+    width: 25%
+    height: 25%
+
+.test
+    padding-left: 15%
+    padding-right: 15%
+
+.arr-icon svg
+    width: 100px
+    position: relative
+    bottom: 50px
+    animation-name: jump
+    animation-duration: 2s
+    animation-iteration-count: infinite
+    animation-timing-function: ease-in-out
+
+// Animations
+
+@keyframes jump
+    0%
+        bottom: 50px
+    50%
+        bottom: 100px
+
