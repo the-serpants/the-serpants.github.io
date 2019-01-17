@@ -1,0 +1,101 @@
+<html>
+<head>
+<title> EMPLOYEE ENTRY FORM </title>
+</head>
+<body>
+<style type="text/css">
+h1{
+text-align:center;}
+.date{
+text-align:right;}
+.menu{
+text-align:right;
+margin-top: -33px;
+}
+.texttwo{
+  text-align:center;
+  margin-top: -35px;
+}
+.textthree{
+  text-align: right;
+    margin-top: -35px;
+}
+.textone{
+position: relative;
+  left: 200px;}
+.menuone{
+  position: relative;
+    left: 35px;
+}
+#textfour,#textfive,#textsix{
+  display: inline-block;
+  position: relative;
+    left: 70px;
+}
+.radio{
+  display:inline;
+}
+input[type="radio"]{
+  margin: 0 100px 0 10px;
+}
+.button{
+  display: inline;
+}
+</style>
+
+<h1> HUMAN RESOURCES MANAGEMENT </h1>
+<h2><center> CHENNAI </center></h2>
+<div class="date" >
+<p> <b>DATE :18/1/19</b></p>
+</div>
+<form>
+<div class="textone">
+<p>SOCIAL SECURITY NUMBER
+<input type="text" name="number"/></p></div>
+<div class="menu">
+<p> SUPER SOCIAL SECURITY NUMBER :
+<select name="numbers">
+<option value="2">two</option>
+<option value="3">three</option>
+<option value="4">four</option></p></select>
+</div>
+<div class="menuone">
+<p>DEPARTMENT NAME :<select>
+  <option value="public">Volvo</option>
+  <option value="private">Saab</option>
+  <option value="co-operative">Opel</option>
+  <option value="all">Audi</option>
+</select>
+</div>
+<div class="texttwo">
+<p> DEPARTMENT NAME<input type="text"/></p>
+</div>
+<div class="textthree">
+<p> DEPARTMENT number<input type="text" maxlength="20"/></p>
+</div>
+<p> PROJECT NAME :
+<input type="text" name="projectname" size="100"/></p>
+<div id="textfour">
+  <p>firstname <input type="text"/></p></div>
+  <div id="textfive">
+    <p>middle initial <input type="text"/></p></div>
+    <div id="textsix">
+      <p>lastname <input type="text"/></p></div>
+      <center><p>Birthday:
+ <input type="date" name="bday"/></p></center>
+ <p> ADDRESS :
+   <input type="text" name="ADDRESS" size="100"/></p>
+   <center><div class="radio"><p> SEX : MALE
+     <input type="radio" name="SEX" value="male" />FEMALE
+<input type="radio" name="SEX" value="female" /> </center>
+</div>
+<p><strong>SALARY </strong>
+  <input type="text" name="SALARY" size="50"/></p>
+<center><div class="button">
+  <button type="submit" value="Submit">SAVE</button>
+  <button type="reset" value="Reset">CLEARALL</button>
+  <button type="reset" value="Reset">BACK</button>
+</div></center>
+</form>
+</body>
+</html>
